@@ -64,7 +64,12 @@ div.book-badge{
 .btn-group-lg>.btn, .btn-lg:focus{
     color: #ffffff;
     background-color: #ed6524;
-    border: 1px solid #ed6524;
+    border: none;
+}
+.btn-group-lg>.btn:active, .btn-lg:active{
+    color: #ffffff;
+    background-color: #3e4265;
+    border: none;
 }
 #all-link{
     display: block;

@@ -37,7 +37,7 @@
                   <p class="lead">A free Bootstrap 4 template for developers and programmers who want to self-publish books. Download now and start selling your book right away!</p>
                   <p class="lead">
                       <a class="btn btn-primary btn-lg btn1 px-4" href="#" role="button">Buy for $20</a>
-                      <a class="btn btn-primary btn-lg btn2 px-4" href="#" role="button">Learn More</a>
+                      <a class="btn btn-primary btn-lg btn2 px-4" href="#benefit" role="button">Learn More</a>
                   </p>
               </div>
               <!-- End-Jumbotron -->
@@ -92,42 +92,42 @@
     <!-- End Showcase -->
 
     <!-- Benefit-section -->
-      <div class="container">
+      <div class="container" id="benefit">
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
               <h1 class="display-3 text-center mt-5">What Will You Get From This Book?</h1>
               <p class="lead text-center mt-3 mb-5 mx-5">Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat. Orci varius natoque penatibus et magnis.</p>
           </div>
           <!-- row 1 -->
-          <div class="row">
-            <div class="col-12 col-lg-4">
+          <div class="row benefit-row">
+            <div class="col-12 col-lg-4 text-center">
                 <i class="fas fa-laptop-code fa-3x"></i>
                 <h3>Build Lorem Ipsum lobortis nec mauris habitant morbi</h3>
                 <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
               </div>
-              <div class="col-12 col-lg-4">
-                <i class="fab fa-js-square fa-3x    "></i>
+              <div class="col-12 col-lg-4 text-center">
+                <i class="fab fa-js-square fa-3x  "></i>
                 <h3>Learn from lorem ipsum dolor sit amet consectetur</h3>
                 <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
               </div>
-              <div class="col-12 col-lg-4">
+              <div class="col-12 col-lg-4 text-center">
                 <i class="fab fa-rocketchat  fa-3x   "></i>
                 <h3>Discover phasellus id egestas tellus maximus</h3>
                 <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
               </div>
           </div>
-          <div class="row">
-            <div class="col-12 col-lg-4">
+          <div class="row benefit-row">
+            <div class="col-12 col-lg-4 text-center">
               <i class="fab fa-angular fa-3x    "></i>
               <h3>Master aliquet augue ac ipsum lobortis interdum</h3>
               <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 text-center">
               <i class="fas fa-code-branch fa-3x    "></i>
               <h3>Deploy elementum mauris tincidunt tempus sagittis</h3>
               <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 text-center">
               <i class="fas fa-hand-holding-usd fa-3x    "></i>
               <h3>Become mattis est et mauris tempus non imperdiet</h3>
               <p>List one of your book's benefits here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit consequat consequat.</p>
@@ -139,50 +139,56 @@
 
     <!-- Include-section start -->
       <div class="container">
-        <div class="mx-auto">
+        <div class="text-center">
           <h2>What's Icluded</h2>
       </div>
       <div class="row">
           <div class="col-md-6">
-              <img class="img-fluid" src="asset/img/devbook-devices.png" alt="devbook-devices">
+              <img id="dev-book-devices" class="img-fluid" src="asset/img/devbook-devices.png" alt="devbook-devices">
           </div>
           <div class="cl-md-6">
-              <ul>
-                  <li>List your book's content here.</li>
-                  <li>PDF fermentum tincidunt erat.</li>
-                  <li>EPUB curabitur fermentum.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Praesent molestie odio risus.</li>
-                  <li>Kindle curabitur fermentum.</li>
-                  <li>Kindle curabitur fermentum.</li>
-                  <li>Kindle curabitur fermentum.</li>
+              <ul class="list ml-3 pr-5">
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>List your book's content here.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>PDF fermentum tincidunt erat.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>EPUB curabitur fermentum.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>Praesent molestie odio risus.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>Kindle curabitur fermentum.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>Kindle curabitur fermentum.</li>
+                  <li> <i class="fa fa-check-circle" aria-hidden="true"></i>Kindle curabitur fermentum.</li>
               </ul>
-              <button type="button" class="btn btn-primary">I want this book</button>
+              <div class="d-block text-center">
+                <button id="include-btn" type="button" class="btn btn-primary px-4 py-2">I want this book</button>
+              </div>
           </div>
       </div>
       </div>
     <!-- End-Inclue -->
 
     <!-- Target-reader-section start -->
-    <div class="container">
+    <div class="container d-block text-center ">
         <h2>Who This Book Is For</h2>
-        <p>List your target readers in this section and back up with reviews. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie. Vivamus hendrerit nisi condimentum erat tempus, vitae accumsan odio euismod.</p>
+        <p class="px-5 mx-5 mb-5">List your target readers in this section and back up with reviews. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie. Vivamus hendrerit nisi condimentum erat tempus, vitae accumsan odio euismod.</p>
     </div>
-    <div class="container">
-        <ul>
-            <li>
+    <div class="container d-flex mx-auto justify-content-center mb-5">
+        <ul class="px-5 mx-5 fa-ul">
+            <li class="mb-4">
+                <span class="fa-li"><i class="fas fa-user-check fa-lg   "></i></span>
                 <h3>Software Developers</h3>
-                <p>Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie.</p>
+                <p pl-3>Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie.</p>
             </li>
-            <li>
+            <li class="mb-4">
+                <span class="fa-li"><i class="fas fa-user-check fa-lg  "></i></span>
                 <h3>App Developers</h3>
                 <p>Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie.</p>
             </li>
-            <li>
+            <li class="mb-4">
+                <span class="fa-li"><i class="fas fa-user-check fa-lg   "></i></span>
                 <h3>Web Developers</h3>
                 <p>Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie.</p>
             </li>
-            <li>
+            <li class="mb-4">
+                <span class="fa-li"><i class="fas fa-user-check fa-lg  "></i></span>
                 <h3>Product Designers</h3>
                 <p>Learn lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales sit amet neque sit amet molestie.</p>
             </li>   
@@ -191,13 +197,15 @@
     <!-- End target-reader -->
 
     <!-- Form-section start -->
-    <div class="container">
+    <div class="container d-flex justify-content-center" id="form-container">
       <div class="form-group">
-        <h3>Get A Free Preview</h3>
-      <label for="email">Sign up to get a free preview of the book.
-        You can offer visitors free book previews to generate leads.</label>
-      <input type="email" class="form-control" name="" id="email" aria-describedby="emailHelpId" placeholder="">
-      <a name="" id="" class="btn btn-primary" href="#" role="button">Send</a>
+        <h3 class="text-center">Get A Free Preview</h3>
+        <label for="email" class="text-center">Sign up to get a free preview of the book.
+          You can offer visitors free book previews to generate leads.</label>
+        <div class="form-wrap form-inline justify-content-center flex-wrap">
+          <input type="email" class="form-control d-flex" name="" id="email" aria-describedby="emailHelpId" placeholder="Your Email">
+          <a name="" id="" class="btn btn-primary" href="#" role="button">Send</a>
+        </div>
     </div>
     </div>
     <!-- End Form -->

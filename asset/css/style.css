@@ -26,13 +26,13 @@ p{
 div.jumbotron{
     padding: 48px 15px 0px;
 }
-.btn-group-lg>.btn, .btn-lg{
+.btn-group-lg>.btn, .btn-lg,#include-btn{
     background-color: #ffffff;
     border: 2px solid #ed6524;
     border-radius: 50px;
     color: #ed6524;
 }
-.btn-group-lg>.btn, .btn-lg:hover{
+.btn-group-lg>.btn,#include-btn:hover, .btn-lg:hover{
     color: #ffffff;
     background-color: #ed6524;
     border: 1px solid #ed6524;
@@ -61,7 +61,7 @@ div.book-badge{
     line-height: 1;
     font-family: 'Quicksand',sans-serif;
 }
-.btn-group-lg>.btn, .btn-lg:focus{
+.btn-group-lg>.btn,#include-btn, .btn-lg:focus{
     color: #ffffff;
     background-color: #ed6524;
     border: none;
@@ -94,4 +94,38 @@ h1, h2, h3{
     color: #ed6524;
     width: 42px;
     height: 42px;
+}
+.fa-user-check{
+    color:#7FCDB8;
+}
+h3{
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+.benefit-row{
+    padding: 1.5rem;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.fa-check-circle{
+    color: #7FCDB8;
+    margin-right: 16px;
+}
+h2{
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#dev-book-devices{
+    height: 466px;
+    width: auto;
+    margin-bottom: 5rem;
+    float: right;
+}
+#form-container{
+    padding-top: 4rem;
+    padding-bottom: 5rem;
 }

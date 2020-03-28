@@ -128,4 +128,59 @@ h2{
 #form-container{
     padding-top: 4rem;
     padding-bottom: 5rem;
+    background-color: #f6f8fc;
+}
+#email{
+    width: 400px;
+    height: 56px;
+}
+#form-button{
+    width: 85px;
+    height: 52px;
+    background-color: #ed6524;
+    border: none;
+}
+.blockquote-review{
+    border: none;
+}
+.review-img{
+    width: 60px;
+}
+#review-button{
+    background-color: #ed6524;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+#author-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #ed6524;
+    width: auto;
+}
+.author-word{
+    width: 50rem ;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.icon-follow{
+    color: #ffffff;
+}
+#follow-text{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+#follow-heading{
+    color: #ffffff;
+    font-size: 3rem;
+}
+.author-link-span{
+    color: #ffffff;
+    text-decoration: underline;
 }
